@@ -1,0 +1,86 @@
+.landing-page {
+  position: relative;
+  background-image: url("bgg.jpg"); /* Solar image */
+  background-size: cover;
+  background-position: center;
+  height: 625px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  padding-left: 40px;
+  z-index: 1; /* Ensure landing page content is above the frame */
+}
+
+.landing-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.overlay-frame {
+  position: absolute;
+  top: -100px; 
+  right: 55px;
+  transform: rotate(45deg) scale(0.8); /* Adjust rotation as needed */
+  z-index: 0; /* Lower z-index to position it behind the navbar */
+  padding: 5px;
+  border-radius: 60px;
+  background: #fff; /* Frame background */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Ensure image fits within the frame */
+}
+
+.overlay-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image fits within the frame */
+  border-radius: 30px;
+  transform: rotate(-45deg) scale(1.4); /* Rotate the image back to align it within the frame */
+  box-shadow: 0px 4px 15px rgba(32, 32, 32, 0.3);
+}
+
+.navbar {
+  position: relative;
+  z-index: 2; /* Ensure the navbar is above everything else */
+}
+
+.landing-content {
+  margin-left: 40px;
+  position: relative;
+  z-index: 3;
+}
+
+.landing-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.landing-content p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.landing-content button {
+  font-weight: bold;
+  padding: 15px 25px;
+  font-size: 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.landing-content button:hover {
+  background-color: #0056b3;
+}
