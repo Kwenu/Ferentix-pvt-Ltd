@@ -1,10 +1,10 @@
-// src/App.js
 import React from 'react';
 import Navbar from './Navbar';
 import LandingPage from '../src/LandingPage';
 import WelcomeSection from '../src/WelcomeSection';
 import ServicesSection from '../src/ServiceSection';
 import ProjectSection from '../src/ProjectSection';
+import Subscription from '../src/Subscription';
 
 import './App.css';
 
@@ -16,6 +16,7 @@ function App() {
       <WelcomeSection />
       <ServicesSection />
       <ProjectSection />
+      <Subscription />
     </div>
   );
 }

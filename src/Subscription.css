@@ -1,0 +1,37 @@
+.subscription-section {
+    padding: 50px 20px;
+    background: linear-gradient(#0C051C, #345FBD);
+    color: #fff;
+    text-align: center;
+}
+
+.subscription-section h3 {
+    font-size: 35px;
+}
+
+.subscription-section .email input {
+    margin-left: -20px;
+}
+
+.email-holder {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+.email .subscribe-btn {
+    background-color: #000000;
+    color: #fff;
+    padding: 22px 23px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.sub-detail {
+    margin-top: 40px;
+    font-size: 18px;
+}
