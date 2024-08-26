@@ -1,0 +1,90 @@
+.footer {
+  background-color: #0C051C;
+  color: white;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  /* margin: 0 20px; */
+}
+
+.footer-container .site-name {
+  margin-left: -70px;
+}
+
+.site-name img {
+  height: 100px;
+  width: 100px;
+}
+
+.site-name h4 {
+  margin-top: 55px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.site-name p {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: white;
+  font-size: 20px;
+  padding: 13px;
+  text-decoration: none;
+}
+
+.footer-container .quick-links {
+  margin-left: 300px;
+}
+
+.quick-links h4,
+.contact-us h4 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links ul li {
+  margin-bottom: 10px;
+  padding: 3px;
+}
+
+.quick-links ul li a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.quick-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-container .contact-us {
+  margin-left: 300px;
+}
+
+.contact-us p {
+  padding: 3px;
+  margin: 10px 0;
+}
+
+.contact-us p i {
+  margin-right: 10px;
+}

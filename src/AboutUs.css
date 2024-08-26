@@ -1,0 +1,54 @@
+/* src/AboutUs.css */
+
+.about-us {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+.about-hero {
+  background: url("bg1.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.company-overview,
+.our-team,
+.our-services,
+.company-history,
+.call-to-action {
+  margin: 40px 0;
+}
+
+.company-overview h2,
+.our-team h2,
+.our-services h2,
+.company-history h2,
+.call-to-action h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.call-to-action {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+}
