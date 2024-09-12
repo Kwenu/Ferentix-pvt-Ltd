@@ -1,0 +1,33 @@
+.heading-section {
+    padding: 50px 20px;
+    background: linear-gradient(to right,#0C051C, #345FBD);
+    color: #fff;
+    text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #0c051c;
+  padding: 10px;
+  width: 30%;
+  border-radius: 8px;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 16px;
+}

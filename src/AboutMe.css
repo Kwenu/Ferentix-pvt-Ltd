@@ -1,0 +1,50 @@
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #fff; 
+  gap: 40px; 
+}
+
+.about-me-content {
+  flex: 1;
+  max-width: 600px;
+  padding-right: 200px;
+}
+
+.about-me-content h2 {
+  font-size: 32px;
+}
+
+.about-me-content h3 {
+  font-size: 38px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.highlight {
+  color: #007bff; 
+}
+
+.about-me-content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.about-me-image {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  margin-left: -50px;
+  margin-right: 150px;
+}
+
+.ceo-image {
+    width: 150%;
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+    border: 8px solid #345FBD; /* First layer of border color */
+    box-shadow: 0 0 0 10px #0C051C; /* Second layer of border color */
+}

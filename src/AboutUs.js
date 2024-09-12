@@ -1,51 +1,28 @@
 import React from 'react';
-import './AboutUs.css'; 
+import './AboutUs.css';
+import company from './img2.jpg'
 
 const AboutUs = () => {
   return (
     <div className="about-us">
-      {/* Hero Section */}
-      <div className="about-hero">
-        <h1>About Us</h1>
-        <p>Welcome to our company! We are committed to delivering quality and excellence.</p>
+      <div className="about-us-image">
+        <img src={company} alt="Construction Site" />
       </div>
-
-      {/* Company Overview */}
-      <section className="company-overview">
-        <h2>Who We Are</h2>
-        <p>Our company has been a leader in the industry for over a decade...</p>
-      </section>
-
-      {/* Our Team */}
-      <section className="our-team">
-        <h2>Meet Our Team</h2>
-        <div className="team-members">
-          <div className="team-member">
-            <img src="path-to-image" alt="Team Member Name" />
-            <h3>John Doe</h3>
-            <p>CEO</p>
-          </div>
-          {/* Repeat for other team members */}
-        </div>
-      </section>
-
-      {/* Our Services */}
-      <section className="our-services">
-        <h2>What We Do</h2>
-        <p>We offer a wide range of services including...</p>
-      </section>
-
-      {/* Company Achievements/History */}
-      <section className="company-history">
-        <h2>Our Journey</h2>
-        <p>Over the years, we have achieved...</p>
-      </section>
-
-      {/* Call to Action */}
-      <section className="call-to-action">
-        <h2>Get in Touch</h2>
-        <p>Contact us to learn more about our services and how we can help you.</p>
-      </section>
+      <div className="about-us-content">
+        <h2>About Us</h2>
+        <h1><span className="highlight">Ferentix&nbsp;</span>(Pvt) Ltd</h1>
+        <p>
+        Our organization Ferentix (Pvt) Ltd has introduce two services for you. 
+        They are Ferentix Solar and Ferentix Construction. <br />
+        Ferentix (Pvt) Ltd is one of the best company in Sri Lanka. 
+        By contacting us you can build your solar system or your dream 
+        building using the latest technology in the world andalso our 
+        company offers  exceptional after-service , ensuring that all 
+        work is supported with professional care and attention. <br />
+        Come join us to build your dream solar energy system, 
+        your dream house and as well as your business place and factory!!!!
+        </p>
+      </div>
     </div>
   );
 }

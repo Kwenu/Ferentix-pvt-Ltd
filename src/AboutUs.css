@@ -1,54 +1,52 @@
-/* src/AboutUs.css */
-
 .about-us {
-  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+.about-us-content {
+  margin-left: 100px;
   padding: 20px;
+  flex: 1;
+}
+
+.about-us-content h2 {
+  font-size: 32px;
   color: #333;
+  margin-bottom: 10px;
 }
 
-.about-hero {
-  background: url("bg1.jpg") no-repeat center center/cover;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-}
-
-.company-overview,
-.our-team,
-.our-services,
-.company-history,
-.call-to-action {
-  margin: 40px 0;
-}
-
-.company-overview h2,
-.our-team h2,
-.our-services h2,
-.company-history h2,
-.call-to-action h2 {
-  font-size: 28px;
+.about-us-content h1 {
+  font-size: 48px;
+  color: #000;
   margin-bottom: 20px;
 }
 
-.team-members {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.highlight {
+  color: #0683FC; /* Highlighted company name color */
 }
 
-.team-member {
-  text-align: center;
-  margin: 20px;
+.about-us-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
 }
 
-.team-member img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+.about-us-image {
+  margin-top: 20px;
+  margin-left: -125px;
+  flex: 1;
 }
 
-.call-to-action {
-  text-align: center;
-  background: #f4f4f4;
-  padding: 20px;
+.about-us-image img {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
 }
