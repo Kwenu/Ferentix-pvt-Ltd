@@ -12,6 +12,7 @@ import ScrollToTopButton from "./ScrollToTopButton";
 import Headings from "./Headings";
 import AboutMe from "./AboutMe";
 import Solar from "./Solar";
+import Construction from "./Construction";
 
 import "./App.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -50,6 +51,14 @@ function App() {
             element={
               <>
                 <Solar />
+              </>
+            }
+          />
+          <Route
+            path="/construction"
+            element={
+              <>
+                <Construction />
               </>
             }
           />

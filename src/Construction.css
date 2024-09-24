@@ -1,0 +1,52 @@
+.construction-page .subheading {
+    padding: 0px 70px;
+    text-align: center;
+}
+
+.construction-page .sub-heading-2 {
+    padding: 0px 70px;
+    text-align: center;
+    line-height: 2;
+    color: #666;
+}
+
+.cons-section {
+  padding: 50px 10px;
+  background: linear-gradient(to right, #0C051C, #345FBD);
+  color: #fff;
+  text-align: center;
+}
+
+.cons-cards {
+display: flex;
+justify-content: space-between; 
+flex-wrap: wrap; 
+gap: 20px; 
+margin: 0 auto; 
+padding: 10px;
+}
+
+.cons-card {
+background-color: #ffffff;
+color: #0c051c;
+width: calc(20% - 20px); 
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.cons-card img {
+margin-top: 20px;
+height: 70px;
+width: 70px;
+}
+
+.cons-card h3 {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.cons-card p {
+padding: 0px 10px;
+font-size: 14px;
+line-height: 1.6; 
+}
