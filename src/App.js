@@ -13,6 +13,8 @@ import Headings from "./Headings";
 import AboutMe from "./AboutMe";
 import Solar from "./Solar";
 import Construction from "./Construction";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 import "./App.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -43,6 +45,7 @@ function App() {
                 <AboutUs />
                 <Headings />
                 <AboutMe />
+                <ScrollToTopButton />
               </>
             }
           />
@@ -51,6 +54,7 @@ function App() {
             element={
               <>
                 <Solar />
+                <ScrollToTopButton />
               </>
             }
           />
@@ -59,6 +63,25 @@ function App() {
             element={
               <>
                 <Construction />
+                <ScrollToTopButton />
+              </>
+            }
+          />
+          <Route
+            path="/projects"
+            element={
+              <>
+                <Projects />
+                <ScrollToTopButton />
+              </>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <>
+                <Contact />
+                <ScrollToTopButton />
               </>
             }
           />
