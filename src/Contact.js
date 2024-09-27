@@ -113,7 +113,7 @@ const ContactUs = () => {
           <h4>Follow Us</h4>
           <ul className="social-icons">
             <li>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61564302045778">
                 <i className="fab fa-facebook"></i>
               </a>
             </li>

@@ -1,7 +1,7 @@
 .footer {
   background-color: #0C051C;
   color: white;
-  padding: 40px 0;
+  padding: 20px 0;
   font-family: 'Arial', sans-serif;
 }
 
@@ -16,7 +16,6 @@
 
 .footer-section {
   flex: 1;
-  /* margin: 0 20px; */
 }
 
 .footer-container .site-name {
@@ -88,3 +87,18 @@
 .contact-us p i {
   margin-right: 10px;
 }
+
+.copyright, .developer {
+  color: white;
+  font-size: 1rem;
+}
+
+.lingo {
+  height: auto;
+  /* margin-left: 10px;
+  margin-top: 20px; */
+}
+
+/* .developer {
+  margin-top: -20px;
+} */
