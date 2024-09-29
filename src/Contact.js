@@ -1,7 +1,7 @@
 import "./Contact.css";
 import React, { useState, useRef } from "react";
 import emailjs from "emailjs-com";
-import { FaMapMarkerAlt, FaClock, FaEnvelope } from "react-icons/fa";
+import { FaMapMarkerAlt, FaClock, FaEnvelope } from 'react-icons/fa';
 import Solar from "../src/contact2.png";
 
 const ContactUs = () => {
