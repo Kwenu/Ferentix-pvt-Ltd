@@ -1,17 +1,16 @@
 import React from "react";
 import "./Solar.css";
-import Image1 from "./solar1.jpg";
-import Image2 from "./solar2.jpg";
-import Image3 from "./solar3.jpg";
-import Image4 from "./solar4.jpg";
-import Image7 from "./solar7.jpg";
-import Image8 from "./solar8.jpg";
+import Image4 from "./solar4.png";
+import Image8 from "./solar9.gif";
 import Img1 from "../src/ongrid.png";
 import Img2 from "../src/head2.png";
 import Img3 from "../src/Hybrid.png";
-import Img4 from "../src/article1.jpg";
-import Img5 from "../src/article2.jpg";
-import Img6 from "../src/article3.png";
+import Logo1 from "../src/logocom1.png";
+import Logo2 from "../src/logocom2.png";
+import Logo3 from "../src/logocom3.png";
+import Logo4 from "../src/logocom4.png";
+import Logo5 from "../src/logocom5.png";
+import Logo6 from "../src/logocom6.png";
 
 const Solar = () => {
   return (
@@ -25,51 +24,87 @@ const Solar = () => {
           solutions tailored to your needs. We offer a range of solar energy
           systems with high-quality products and the latest technology,
           including on-grid, off-grid, and hybrid systems, designed to maximize
-          efficiency and reliability. Our on-grid systems seamlessly integrate
-          with the existing power grid, reducing energy costs and supporting
-          sustainability efforts. Off-grid solutions provide complete
-          independence from utility networks, perfect for remote locations or
-          those seeking full energy autonomy. Hybrid systems combine the
-          benefits of both, offering flexibility, enhanced performance, and
-          battery backup options for continuous power supply.
+          efficiency and reliability.
         </p>
       </div>
 
       <div className="solar-gallery">
         <div className="gallery-image">
-          <img src={Image1} alt="Solar Image 1" />
+          <img src={Image8} alt="Solar Image 1" />
         </div>
-        <div className="gallery-image">
-          <img src={Image2} alt="Solar Image 2" />
-        </div>
-        <div className="gallery-image">
-          <img src={Image3} alt="Solar Image 3" />
+        <div className="gallery-text">
+          <p className="content-heading">Why Go Solar?</p>
+          <p className="content-text">
+            <ul>
+              <li>
+                <b>Cost Savings:</b> With solar power, you can significantly
+                reduce your energy bills. The savings start immediately after
+                installation and last for decades.
+              </li>
+              <li>
+                <b>Eco-Friendly:</b> Solar power is a renewable, clean source of
+                energy that reduces your carbon footprint and helps combat
+                climate change.
+              </li>
+              <li>
+                <b>Energy Independence:</b> With solar panels, you generate your
+                own power, protecting yourself from energy price fluctuations
+                and power outages.
+              </li>
+              <li>
+                <b>Increased Property Value:</b> Properties with solar
+                installations typically see a rise in value, making it a
+                long-term investment for homeowners and businesses alike.
+              </li>
+            </ul>
+          </p>
         </div>
       </div>
 
       <div className="solar-content">
         <p>
-          Additionally, we specialize in ground-mounted solar farms, ideal for
-          large-scale energy production, which are perfect for businesses,
-          communities, and agricultural sectors looking to harness the power of
-          the sun. All our solar solutions come with an exceptional 25-year
-          warranty, ensuring long-term performance, durability, and peace of
-          mind. At Ferentix Solar, we also provide comprehensive maintenance and
-          monitoring services to ensure optimal system performance throughout
-          its lifespan. Trust us to be your partner in achieving a greener, more
-          energy-efficient future.
+          At Ferentix Solar, we are dedicated to delivering sustainable energy
+          solutions uniquely tailored to meet your specific needs. Our
+          comprehensive range of solar energy systems is built using only the
+          highest quality products and the latest innovations in solar
+          technology. Whether you're seeking on-grid, off-grid, or hybrid
+          systems, we design each to maximize both efficiency and reliability.
+          Our on-grid systems integrate seamlessly with existing power grids,
+          significantly reducing energy costs while supporting environmental
+          sustainability efforts.
         </p>
       </div>
 
       <div className="solar-gallery">
-        <div className="gallery-image">
+        <div className="gallery-text-1">
+          <p className="content-heading">Our Solar Services</p>
+          <p className="content-text">
+            <ul>
+              <li>
+                <b>Solar Panel Installation:</b> Whether it’s rooftop solar for
+                homes or large-scale solar systems for businesses, our expert
+                team ensures a seamless installation process.
+              </li>
+              <li>
+                <b>System Design:</b> We assess your energy needs and design a
+                solar system that maximizes efficiency and returns on
+                investment.
+              </li>
+              <li>
+                <b>Maintenance & Monitoring:</b> Ferentix offers ongoing
+                maintenance and system monitoring to ensure that your solar
+                panels operate at peak performance year-round.
+              </li>
+              <li>
+                <b>Financing Options:</b> We provide flexible financing plans to
+                make the switch to solar affordable and hassle-free for
+                everyone.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="gallery-image-1">
           <img src={Image4} alt="Solar Image 4" />
-        </div>
-        <div className="gallery-image">
-          <img src={Image7} alt="Solar Image 5" />
-        </div>
-        <div className="gallery-image">
-          <img src={Image8} alt="Solar Image 6" />
         </div>
       </div>
       <br />
@@ -106,48 +141,75 @@ const Solar = () => {
       </div>
 
       <div className="related-articles">
-        <h2>Related Articles or Posts</h2>
+        <h2>Our Packages</h2>
         <div className="articles">
-          <div className="article">
-            <h3>5 Benefits of Solar Energy</h3>
-            <img
-              src={Img4}
-              alt="Benefits of Solar Energy"
-              className="article-image"
-            />
-            <p>
-              Solar energy is a renewable and sustainable source of power that
-              offers numerous benefits for the environment and your wallet.
-            </p>
+          <div style={{backgroundColor: "#B9F2FF"}} className="article">
+            <h3>Diamond Package</h3><br />
+            <img src={Logo1} alt="LogoCom1" />
+            <div className="article-details">
+              <p>
+                Solar energy is a renewable and sustainable source of power that
+                offers numerous benefits for the environment and your wallet.
+              </p>
+            </div>
           </div>
-          <div className="article">
-            <h3>How Solar Panels Work</h3>
-            <img
-              src={Img5}
-              alt="How Solar Panels Work"
-              className="article-image"
-            />
-            <p>
-              Solar panels convert sunlight into electricity through the
-              photovoltaic effect, providing clean and efficient energy for your
-              home or business.
-            </p>
+          <div style={{backgroundColor: "#E5E4E2"}} className="article">
+            <h3>Platinum Package</h3><br />
+            <img src={Logo2} alt="LogoCom2" />
+            <div className="article-details">
+              <p>
+                Solar panels convert sunlight into electricity through the
+                photovoltaic effect, providing clean and efficient energy for
+                your home or business.
+              </p>
+            </div>
           </div>
-          <div className="article">
-            <h3>Top Solar Panel Brands</h3>
-            <img
-              src={Img6}
-              alt="Top Solar Panel Brands"
-              className="article-image"
-            />
-            <p>
-              Discover the top solar panel brands that offer high-quality
-              products, reliability, and performance for your solar energy
-              system.
-            </p>
+          <div style={{backgroundColor: "#FFD700"}} className="article">
+            <h3>Gold Package</h3><br />
+            <img src={Logo3} alt="LogoCom3" />
+            <div className="article-details">
+              <p>
+                Discover the top solar panel brands that offer high-quality
+                products, reliability, and performance for your solar energy
+                system.
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#C0C0C0"}} className="article">
+            <h3>Silver Package</h3><br />
+            <img src={Logo4} alt="LogoCom3" />
+            <div className="article-details">
+              <p>
+                Discover the top solar panel brands that offer high-quality
+                products, reliability, and performance for your solar energy
+                system.
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#CD7F32"}} className="article">
+            <h3>Bronze Package</h3><br />
+            <img src={Logo5} alt="LogoCom3" />
+            <div className="article-details">
+              <p>
+                Discover the top solar panel brands that offer high-quality
+                products, reliability, and performance for your solar energy
+                system.
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#b5a642"}} className="article">
+            <h3>Brass Package</h3>
+            <img src={Logo6} alt="LogoCom3" />
+            <div className="article-details">
+              <p>
+                Discover the top solar panel brands that offer high-quality
+                products, reliability, and performance for your solar energy
+                system.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </div><br />
     </div>
   );
 };

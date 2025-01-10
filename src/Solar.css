@@ -21,39 +21,85 @@
   font-size: 1rem;
   line-height: 30px;
   margin: 50px auto;
+  text-align: left;
+  margin-left: 40px;
 }
 
 .solar-gallery {
   margin-right: 300px;
   min-width: 1200px;
   padding: 0px 100px;
-  margin-left: 60px;
+  margin-left: 85px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 20px;
 }
 
-.solar-gallery .gallery-image {
+.solar-gallery .gallery-image,
+.solar-gallery .gallery-image-1 {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-.solar-gallery .gallery-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+.solar-gallery .gallery-text {
+  margin-left: 10px;
+  line-height: 2;
+  text-align: justify;
+  margin-top: -10px;
+  color: #666;
+}
+
+.solar-gallery .gallery-text .content-heading,
+.solar-gallery .gallery-text-1 .content-heading {
+  font-size: 1.7rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.gallery-text .content-text,
+.gallery-text-1 .content-text {
+  line-height: 2.2;
+}
+
+.solar-gallery .gallery-text-1 {
+  line-height: 2;
+  text-align: justify;
+  color: #666;
+  margin-left: -80px;
+}
+
+.solar-gallery .gallery-image img,
+.solar-gallery .gallery-image-1 img {
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
   display: block;
-  object-fit: cover;
+  margin-left: -50px;
+  /* object-fit: cover; */
+}
+
+.gallery-image {
+  animation: right 2s ease forwards;
+}
+
+.gallery-image-1 {
+  animation: left 5s ease forwards;
+}
+
+.solar-gallery .gallery-image-1 {
+  margin-left: 80px;
 }
 
 .solar-content {
   padding: 20px 40px;
-  text-align: center;
+  text-align: justify;
   justify-content: center;
   font-size: 1rem;
-  color: #444;
+  color: #666;
   line-height: 1.8;
-  margin: 20px auto;
+  margin: 0px 50px;
 }
 
 .related-articles {
@@ -67,41 +113,64 @@
 }
 
 .articles {
-  display: flex; /* Display flexbox */
-  justify-content: space-around; /* Space out the articles */
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
-  gap: 20px; /* Space between articles */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards per row */
+  gap: 30px; /* Increased space between cards */
   margin-top: 20px;
 }
 
 .article {
-  border: 1px solid #8f8b8b; /* Border around each article */
-  padding: 30px;
-  border-radius: 8px;
-  max-width: 300px; /* Width of each article */
-  flex: 1; /* Grow equally */
-  text-align: left; /* Align text to the left */
-  background-color: #fff; /* Background color for each article */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  position: relative;
+  overflow: hidden; /* Ensures content stays within the card */
+  border: 1px solid #8f8b8b; /* Border around each card */
+  border-radius: 12px; /* Slightly larger corner radius */
+  text-align: center; /* Align content to center */
+  /* background-color: #f4f8ff; */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  width: 350px; /* Increased card width */
+  height: 350px; /* Increased card height */
+  margin: auto; /* Center cards horizontally */
 }
 
 .article img {
-  width: 100%; /* Image takes full width */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 10px; /* Space below the image */
-  border-radius: 8px; /* Rounded corners */
+  height: 100px;
+  width: 300px;
+}
+
+.article:hover {
+  transform: scale(1.1); /* Slightly larger scale on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
 .article h3 {
-  color: #007bff; /* Title color */
-  font-size: 18px; /* Font size for the title */
-  margin-bottom: 10px; /* Space below the title */
-  text-align: center;
-  margin-bottom: 20px;
+  font-size: 22px; /* Larger font size for the title */
+  margin: 30px 0; /* Increased spacing around the title */
+  color: #000000; /* Title color */
+  margin-top: 90px;
 }
 
-.article p {
-  color: #666; /* Text color */
-  font-size: 14px; /* Font size for the paragraph */
-  line-height: 1.6; /* Line height for better readability */
+.article-details {
+  position: absolute;
+  top: 100%; /* Start off-screen */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent background */
+  padding: 30px; /* Increased padding for more content space */
+  box-sizing: border-box;
+  text-align: left;
+  overflow: auto; /* Enable scrolling for large content */
+  transition: top 0.3s ease; /* Smooth slide-in effect */
 }
+
+.article:hover .article-details {
+  top: 0; /* Bring the details into view on hover */
+}
+
+.article-details p {
+  color: #666; /* Text color */
+  font-size: 16px; /* Slightly larger font size for the description */
+  line-height: 1.8; /* Better readability with increased line height */
+}
+

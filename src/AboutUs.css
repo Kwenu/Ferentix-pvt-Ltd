@@ -36,7 +36,7 @@
 }
 
 .about-us-image {
-  margin-top: 20px;
+  margin-top: -20px;
   margin-left: -125px;
   flex: 1;
 }
@@ -48,5 +48,6 @@
   border-bottom-right-radius: 150px;
   width: 100%;
   max-width: 900px;
-  height: 600px;
+  height: 580px;
+  animation: right 1s ease forwards;
 }

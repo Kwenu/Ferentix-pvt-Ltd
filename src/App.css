@@ -41,3 +41,39 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@keyframes right {
+  0% {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes left {
+  0% {
+      transform: translateX(100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes bottom {
+  0% {
+      transform: translateY(-100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateY(0px);
+      opacity: 1;
+  }
+}

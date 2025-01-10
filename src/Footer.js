@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section site-name">
-          <h4>Ferentix (pvt) Ltd</h4>
+          <h4>Ferentix (Pvt) Ltd</h4>
           <p>Make Your Vision Into Realities</p>
           <div className="social-icons">
             <a href="https://www.facebook.com/profile.php?id=61564302045778">
@@ -53,13 +53,13 @@ const Footer = () => {
             <i className="fas fa-phone"></i>+94 77 749 1007
           </p>
           <p>
-            <i className="fas fa-map-marker-alt"></i>Dangedara, Galle
+            <i className="fas fa-map-marker-alt"></i>52/13, Royal City, Steel Rd, Galle 80000
           </p>
         </div>
       </div>
 
       <div className="alrights"><br />
-        <p className="copyright">© Copyright 2024, Ferentix (pvt) Ltd. All Right Reserved.</p>
+        <p className="copyright">© Copyright 2024, Ferentix (Pvt) Ltd. All Right Reserved.</p>
         <p className="developer">Design and Developed by :-
           <a href="https://api.whatsapp.com/message/ND63BU4PRWSDD1?autoload=1&app_absent=0"><br />
             <img src={Lingo} alt="lingo" className="lingo"/>
