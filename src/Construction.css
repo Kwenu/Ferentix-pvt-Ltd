@@ -50,3 +50,41 @@ padding: 0px 10px;
 font-size: 14px;
 line-height: 1.6; 
 }
+
+.con-gallery {
+  margin-right: 300px;
+  min-width: 1200px;
+  padding: 0px 100px;
+  margin-left: 85px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.con-gallery .gallery-image-con1,
+.con-gallery .gallery-image-con2 {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.con-gallery .gallery-image-con1 img,
+.con-gallery .gallery-image-con2 img {
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  display: block;
+  margin-left: -50px;
+  /* object-fit: cover; */
+}
+
+.con-gallery .gallery-image-con2 {
+  right: -50px;
+}
+
+.gallery-image-con1{
+  animation: right 2s ease forwards;
+}
+
+.gallery-image-con2 {
+  animation: left 2s ease forwards;
+}

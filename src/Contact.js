@@ -82,9 +82,8 @@ const ContactUs = () => {
               <div>
                 <h4>Open Office Hours</h4>
                 <p>
-                  Mon-Fri: 8am - 5pm
+                  Monday to Friday : 8am to 5pm
                   <br />
-                  Sat-Sun: 10am - 5pm
                 </p>
               </div>
             </div>

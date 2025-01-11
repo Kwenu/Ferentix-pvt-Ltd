@@ -2,10 +2,10 @@ import React from "react";
 import "./Construction.css";
 import Con1 from "./con1.jpg";
 import Con2 from "./con2.jpg";
-import Con3 from "./con3.jpg";
-import Img1 from "./article4.jpg";
-import Img2 from "./article5.jpg";
-import Img3 from "./article6.jpg";
+// import Con3 from "./con3.jpg";
+// import Img1 from "./article4.jpg";
+// import Img2 from "./article5.jpg";
+// import Img3 from "./article6.jpg";
 import Img4 from "../src/HP.png";
 import Img5 from "../src/AR.png";
 import Img6 from "../src/ID.png";
@@ -33,16 +33,16 @@ const Construction = () => {
         </p>
       </div>
 
-      <div className="solar-gallery">
-        <div className="gallery-image">
-          <img src={Con1} alt="Solar Image 1" />
+      <div className="con-gallery">
+        <div className="gallery-image-con1">
+          <img src={Con1} alt="Con Image 1" />
         </div>
-        <div className="gallery-image">
-          <img src={Con2} alt="Solar Image 2" />
+        <div className="gallery-image-con2">
+          <img src={Con2} alt="Con Image 2" />
         </div>
-        <div className="gallery-image">
+        {/* <div className="gallery-image">
           <img src={Con3} alt="Solar Image 3" />
-        </div>
+        </div> */}
       </div>
       <br />
       <br />
@@ -110,7 +110,7 @@ const Construction = () => {
         </div>
       </div>
 
-      <div className="related-articles">
+      {/* <div className="related-articles">
         <h2>Related Articles or Posts</h2>
         <div className="articles">
           <div className="article">
@@ -160,7 +160,7 @@ const Construction = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

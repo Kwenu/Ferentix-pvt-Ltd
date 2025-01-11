@@ -142,14 +142,539 @@ const Solar = () => {
 
       <div className="related-articles">
         <h2>Our Packages</h2>
+        <h3 className="capacity" style={{color: '#007bff'}}>- - Capacity : 05.00 kW - -</h3>
         <div className="articles">
           <div style={{backgroundColor: "#B9F2FF"}} className="article">
             <h3>Diamond Package</h3><br />
             <img src={Logo1} alt="LogoCom1" />
             <div className="article-details">
               <p>
-                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
                 <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 700 - 800 kWh.</li>
+                  <li>Total Saving per Month: LKR 18 900 (700 x 27)</li>
+                  <li>Annual Saving: LKR 226 800 (18 900 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 41 702.56</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>SMA 05kW Inverter - Origin in German (Made in China)</p>
+                <ul>
+                  <li>10 Year Product Warranty (Can Extend up to 25 Years)</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#E5E4E2"}} className="article">
+            <h3>Platinum Package</h3><br />
+            <img src={Logo2} alt="LogoCom2" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 800 - 900 kWh.</li>
+                  <li>Total Saving per Month: LKR 21 600 (800 x 27)</li>
+                  <li>Annual Saving: LKR 259 200 (21 600 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 48 369.23</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>ABB Fimer 05kW Inverter - Made in Italy</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#FFD700"}} className="article">
+            <h3>Gold Package</h3><br />
+            <img src={Logo3} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+                <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 450 - 600 kWh.</li>
+                  <li>Total Saving per Month: LKR 12 150 (450 x 27)</li>
+                  <li>Annual Saving: LKR 157 950 (12 150 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 25 035.90</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solis 05kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#C0C0C0"}} className="article">
+            <h3>Silver Package</h3><br />
+            <img src={Logo4} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+             <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 400 - 500kWh.</li>
+                  <li>Total Saving per Month: LKR 10 800 (400 x 27)</li>
+                  <li>Annual Saving: LKR 129 600 (10 800 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 21 702.56</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solis 05kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#CD7F32"}} className="article">
+            <h3>Bronze Package</h3><br />
+            <img src={Logo5} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 400 - 500kWh.</li>
+                  <li>Total Saving per Month: LKR 10 800 (400 x 27)</li>
+                  <li>Annual Saving: LKR 129 600 (10 800 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 21 702.56</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solax / Deye 05kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#b5a642"}} className="article">
+            <h3>Brass Package</h3>
+            <img src={Logo6} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 400 - 500kWh.</li>
+                  <li>Total Saving per Month: LKR 10 800 (400 x 27)</li>
+                  <li>Annual Saving: LKR 129 600 (10 800 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 21 702.56</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Growott / GoodWe 05kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div><br /><br />
+
+        <h3 className="capacity" style={{color: '#007bff'}}>- - Capacity : 10.00 kW - -</h3>
+        <div className="articles">
+          <div style={{backgroundColor: "#B9F2FF"}} className="article">
+            <h3>Diamond Package</h3><br />
+            <img src={Logo1} alt="LogoCom1" />
+            <div className="article-details">
+              <p>
+                <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 1400 - 1750 kWh.</li>
+                  <li>Total Saving per Month: LKR 37 800 (1400 x 27)</li>
+                  <li>Annual Saving: LKR 453 600 (37 800 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 88 369.23</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>SMA 10kW Inverter - Made in German</p>
+                <ul>
+                  <li>10 Year Product Warranty (Can Extend up to 25 Years)</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#E5E4E2"}} className="article">
+            <h3>Platinum Package</h3><br />
+            <img src={Logo2} alt="LogoCom2" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 1400 - 1750 kWh.</li>
+                  <li>Total Saving per Month: LKR 37 800 (1400 x 27)</li>
+                  <li>Annual Saving: LKR 453 600 (37 800 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 88 369.23</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>ABB Fimer 10kW Inverter - Made in Italy</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#FFD700"}} className="article">
+            <h3>Gold Package</h3><br />
+            <img src={Logo3} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+                <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 1100 - 1200 kWh.</li>
+                  <li>Total Saving per Month: LKR 29 700 (1100 x 27)</li>
+                  <li>Annual Saving: LKR 356 400 (29 700 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 68 369.23</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solis 10kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#C0C0C0"}} className="article">
+            <h3>Silver Package</h3><br />
+            <img src={Logo4} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+             <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 1000 - 1100 kWh.</li>
+                  <li>Total Saving per Month: LKR 27 000 (1000 x 27)</li>
+                  <li>Annual Saving: LKR 324 000 (27 000 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 61 702.56</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solis 10kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#CD7F32"}} className="article">
+            <h3>Bronze Package</h3><br />
+            <img src={Logo5} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 950 - 1050 kWh.</li>
+                  <li>Total Saving per Month: LKR 25 650 (950 x 27)</li>
+                  <li>Annual Saving: LKR 307 800 (25 650 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 58 369.23</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solax / Deye 10kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#b5a642"}} className="article">
+            <h3>Brass Package</h3>
+            <img src={Logo6} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 900 - 975 kWh.</li>
+                  <li>Total Saving per Month: LKR 24 300 (900 x 27)</li>
+                  <li>Annual Saving: LKR 291 600 (24 300 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 55 035.90</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Growott / GoodWe 10kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div><br /><br />
+
+        <h3 className="capacity" style={{color: '#007bff'}}>- - Capacity : 20.00 kW - -</h3>
+        <div className="articles">
+          <div style={{backgroundColor: "#B9F2FF"}} className="article">
+            <h3>Diamond Package</h3><br />
+            <img src={Logo1} alt="LogoCom1" />
+            <div className="article-details">
+              <p>
+                <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 3000 - 3500 kWh.</li>
+                  <li>Total Saving per Month: LKR 81 000 (3000 x 27)</li>
+                  <li>Annual Saving: LKR 972 000 (81 000 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 195 035.90</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>SMA 20kW Inverter - Made in Germany</p>
+                <ul>
+                  <li>10 Year Product Warranty (Can Extend up to 25 Years)</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#E5E4E2"}} className="article">
+            <h3>Platinum Package</h3><br />
+            <img src={Logo2} alt="LogoCom2" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+              <ul>
+                  <li>Expect Average Monthly Solar Energy: 3000 - 3500 kWh.</li>
+                  <li>Total Saving per Month: LKR 81 000 (3000 x 27)</li>
+                  <li>Annual Saving: LKR 972 000 (81 000 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 195 035.90</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>ABB Fimer 20kW Inverter - Made in Italy</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#FFD700"}} className="article">
+            <h3>Gold Package</h3><br />
+            <img src={Logo3} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+                <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 2200 - 2500 kWh.</li>
+                  <li>Total Saving per Month: LKR 59 400 (2200 x 27)</li>
+                  <li>Annual Saving: LKR 712 800 (59 400 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 141 702.56</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solis/ Huawei 20kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#C0C0C0"}} className="article">
+            <h3>Silver Package</h3><br />
+            <img src={Logo4} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+             <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 2000 - 2200 kWh.</li>
+                  <li>Total Saving per Month: LKR 54 000 (2000 x 27)</li>
+                  <li>Annual Saving: LKR 648 000 (54 000 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 128 369.23</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solis 20kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#CD7F32"}} className="article">
+            <h3>Bronze Package</h3><br />
+            <img src={Logo5} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 1900 - 2100 kWh.</li>
+                  <li>Total Saving per Month: LKR 51 300 (1900 x 27)</li>
+                  <li>Annual Saving: LKR 615 600 (51 300 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 121 702.56</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solax / Deye 20kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#b5a642"}} className="article">
+            <h3>Brass Package</h3>
+            <img src={Logo6} alt="LogoCom3" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 1800 - 2100 kWh.</li>
+                  <li>Total Saving per Month: LKR 48 600 (1800 x 27)</li>
+                  <li>Annual Saving: LKR 583 200 (48 600 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 115 035.90</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>30 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Growott / GoodWe 20kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div><br /><br />
+
+        <h3 className="capacity" style={{color: '#007bff'}}>- - Capacity : 40.00 kW - -</h3>
+        <div className="articles">
+          <div style={{backgroundColor: "#B9F2FF"}} className="article">
+            <h3>Diamond Package</h3><br />
+            <img src={Logo1} alt="LogoCom1" />
+            <div className="article-details">
+              <p>
+                <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 6000 - 6500 kWh.</li>
+                  <li>Total Saving per Month: LKR 222 000 (6000 x 37)</li>
+                  <li>Annual Saving: LKR 2 664 000 (222 000 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 395 035.90</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>20 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>SMA 20kW Inverter x 2 - Made in German</p>
+                <ul>
+                  <li>10 Year Product Warranty (Can Extend up to 25 Years)</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#E5E4E2"}} className="article">
+            <h3>Platinum Package</h3><br />
+            <img src={Logo2} alt="LogoCom2" />
+            <div className="article-details">
+            <p>
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 6000 - 6500 kWh.</li>
                   <li>Total Saving per Month: LKR 222 000 (6000 x 37)</li>
@@ -171,33 +696,18 @@ const Solar = () => {
               </p>
             </div>
           </div>
-          <div style={{backgroundColor: "#E5E4E2"}} className="article">
-            <h3>Platinum Package</h3><br />
-            <img src={Logo2} alt="LogoCom2" />
-            <div className="article-details">
-            <p>
-                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
-                <b style={{color: 'Black'}}>Solar Modules :</b>
-                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
-                <ul>
-                  <li>Manufactured in China</li>
-                  <li>12 Year Product Warranty</li>
-                  <li>20 Year Performance Guaranty</li>
-                </ul>
-                <b style={{color: 'Black'}}>Inverter Type :</b>
-                <p>ABB Fimer 20kW Inverter x 2 - Made in Italy</p>
-                <ul>
-                  <li>10 Year Product Warranty</li>
-                </ul>
-              </p>
-            </div>
-          </div>
           <div style={{backgroundColor: "#FFD700"}} className="article">
             <h3>Gold Package</h3><br />
             <img src={Logo3} alt="LogoCom3" />
             <div className="article-details">
             <p>
-                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+                <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 4400 - 4800 kWh.</li>
+                  <li>Total Saving per Month: LKR 162 800 (4400 x 37)</li>
+                  <li>Annual Saving: LKR 1 953 600 (162 800 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 288 369.23</li>
+                </ul>
                 <b style={{color: 'Black'}}>Solar Modules :</b>
                 <p>Jinko N Type Neo / Tiger Pro Solar Module</p>
                 <ul>
@@ -218,7 +728,13 @@ const Solar = () => {
             <img src={Logo4} alt="LogoCom3" />
             <div className="article-details">
             <p>
-                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+             <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 4000 - 4400 kWh.</li>
+                  <li>Total Saving per Month: LKR 148 000 (4000 x 37)</li>
+                  <li>Annual Saving: LKR 1 776 000 (148 000 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 261 702.56</li>
+                </ul>
                 <b style={{color: 'Black'}}>Solar Modules :</b>
                 <p>JA Solar Module</p>
                 <ul>
@@ -239,7 +755,13 @@ const Solar = () => {
             <img src={Logo5} alt="LogoCom3" />
             <div className="article-details">
             <p>
-                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 3800 - 4200 kWh.</li>
+                  <li>Total Saving per Month: LKR 70 300 (3800 x 37)</li>
+                  <li>Annual Saving: LKR 1 687 200 (140 600 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 248 369.23</li>
+                </ul>
                 <b style={{color: 'Black'}}>Solar Modules :</b>
                 <p>JA Solar Module</p>
                 <ul>
@@ -260,7 +782,13 @@ const Solar = () => {
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
             <p>
-                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 3600 - 3900 kWh.</li>
+                  <li>Total Saving per Month: LKR 133 200 (3600 x 37)</li>
+                  <li>Annual Saving: LKR 1 598 400 (133 200 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 235 035.90</li>
+                </ul>
                 <b style={{color: 'Black'}}>Solar Modules :</b>
                 <p>JA Solar Module</p>
                 <ul>
