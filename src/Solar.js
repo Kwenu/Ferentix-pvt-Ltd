@@ -148,8 +148,26 @@ const Solar = () => {
             <img src={Logo1} alt="LogoCom1" />
             <div className="article-details">
               <p>
-                Solar energy is a renewable and sustainable source of power that
-                offers numerous benefits for the environment and your wallet.
+                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+                <b style={{color: 'Black'}}>Expected Earning First Year :</b>
+                <ul>
+                  <li>Expect Average Monthly Solar Energy: 6000 - 6500 kWh.</li>
+                  <li>Total Saving per Month: LKR 222 000 (6000 x 37)</li>
+                  <li>Annual Saving: LKR 2 664 000 (222 000 x 12)</li>
+                  <li>Recommend electricity bill covered by our system (Per Month): LKR 395 035.90</li>
+                </ul>
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>20 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>ABB Fimer 20kW Inverter x 2 - Made in Italy</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -157,10 +175,20 @@ const Solar = () => {
             <h3>Platinum Package</h3><br />
             <img src={Logo2} alt="LogoCom2" />
             <div className="article-details">
-              <p>
-                Solar panels convert sunlight into electricity through the
-                photovoltaic effect, providing clean and efficient energy for
-                your home or business.
+            <p>
+                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro / Trina Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>20 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>ABB Fimer 20kW Inverter x 2 - Made in Italy</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -168,10 +196,20 @@ const Solar = () => {
             <h3>Gold Package</h3><br />
             <img src={Logo3} alt="LogoCom3" />
             <div className="article-details">
-              <p>
-                Discover the top solar panel brands that offer high-quality
-                products, reliability, and performance for your solar energy
-                system.
+            <p>
+                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>Jinko N Type Neo / Tiger Pro Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>20 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solis 40kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -179,10 +217,20 @@ const Solar = () => {
             <h3>Silver Package</h3><br />
             <img src={Logo4} alt="LogoCom3" />
             <div className="article-details">
-              <p>
-                Discover the top solar panel brands that offer high-quality
-                products, reliability, and performance for your solar energy
-                system.
+            <p>
+                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>20 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solis 40kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -190,10 +238,20 @@ const Solar = () => {
             <h3>Bronze Package</h3><br />
             <img src={Logo5} alt="LogoCom3" />
             <div className="article-details">
-              <p>
-                Discover the top solar panel brands that offer high-quality
-                products, reliability, and performance for your solar energy
-                system.
+            <p>
+                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>20 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Solax / Deye 40kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -201,10 +259,20 @@ const Solar = () => {
             <h3>Brass Package</h3>
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
-              <p>
-                Discover the top solar panel brands that offer high-quality
-                products, reliability, and performance for your solar energy
-                system.
+            <p>
+                <b><center style={{color: '#007bff'}}>Capacity :- 40.00 kW. </center></b><br />
+                <b style={{color: 'Black'}}>Solar Modules :</b>
+                <p>JA Solar Module</p>
+                <ul>
+                  <li>Manufactured in China</li>
+                  <li>12 Year Product Warranty</li>
+                  <li>20 Year Performance Guaranty</li>
+                </ul>
+                <b style={{color: 'Black'}}>Inverter Type :</b>
+                <p>Growott / GoodWe 40kW Inverter - Made in China</p>
+                <ul>
+                  <li>10 Year Product Warranty</li>
+                </ul>
               </p>
             </div>
           </div>
