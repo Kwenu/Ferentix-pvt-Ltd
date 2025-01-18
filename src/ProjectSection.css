@@ -1,36 +1,81 @@
 .project-section {
-    padding: 20px;
-    margin-top: -30px;
-    margin-bottom: 10px;
+  padding: 20px;
+  margin-top: -30px;
+  margin-bottom: 10px;
 }
 
 .project-section h2 {
-    font-size: 55px;
+  font-size: 55px;
 }
 
 .project-section h3 {
-    font-size: 20px;
-    color: #345FBD;
-    margin-top: -30px;
+  font-size: 20px;
+  color: #345fbd;
+  margin-top: -30px;
 }
 
 .project-images {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  overflow: hidden;
 }
 
 .project-images .project-cards {
-    background-color: #ffffff;
-    color: #0C051C;
-    padding: 10px;
-    width: 30%;
-    border-radius: 8px;
+  background-color: #ffffff;
+  color: #0c051c;
+  padding: 10px;
+  width: 30%;
+  border-radius: 8px;
 }
 
 .project-images .project-cards img {
-    height: 400px;
-    width: 400px;
-    border-radius: 30px;
+  height: 400px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .project-section h2 {
+    font-size: 45px; /* Adjust heading size for tablets */
+  }
+
+  .project-section h3 {
+    font-size: 18px; /* Slightly smaller text for tablets */
+  }
+
+  .project-images {
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center align images */
+    gap: 30px; /* Increase spacing between stacked cards */
+  }
+
+  .project-images .project-cards {
+    width: 80%; /* Increase width to fill more space for stacked layout */
+  }
+
+  .project-images .project-cards img {
+    height: auto; /* Adjust image height to maintain aspect ratio */
+    max-width: 100%; /* Ensure images fit within their container */
+  }
+}
+
+@media (max-width: 768px) {
+  .project-section h2 {
+    font-size: 35px; /* Adjust heading size for mobile */
+    margin-bottom: 40px;
+  }
+
+  .project-section h3 {
+    font-size: 16px; /* Adjust subheading size for mobile */
+  }
+
+  .project-images {
+    gap: 20px; /* Reduce spacing between stacked cards */
+  }
+
+  .project-images .project-cards {
+    width: 90%; /* Expand cards to almost full width for smaller screens */
+  }
 }

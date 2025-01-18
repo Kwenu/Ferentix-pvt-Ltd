@@ -89,3 +89,72 @@
 .landing-content button:hover {
   background-color: #0056b3;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .landing-page {
+    height: auto; /* Adjust height to fit content */
+    flex-direction: column; /* Stack content vertically */
+    padding: 20px;
+  }
+
+  .overlay-frame {
+    position: static;
+    margin: 20px 0;
+    transform: rotate(0deg) scale(1); /* Reset rotation for better fit */
+  }
+
+  .overlay-image {
+    display: none;
+  }
+
+  .landing-content {
+    margin: 0 auto;
+    text-align: center; /* Center align content */
+  }
+
+  .landing-content h1 {
+    font-size: 36px; /* Slightly smaller for tablets */
+  }
+
+  .landing-content p {
+    font-size: 20px;
+  }
+}
+
+/* Responsive for mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .landing-page {
+    height: auto; /* Adjust height for mobile */
+    flex-direction: column;
+    padding: 10px;
+    text-align: center; /* Center align content */
+  }
+
+  .overlay-frame {
+    position: static;
+    margin: 20px 0;
+    transform: rotate(0deg) scale(1); /* Reset rotation */
+  }
+
+  .overlay-image {
+    display: none;
+  }
+
+  .landing-content {
+    margin: 15px auto;
+    max-width: 90%; /* Fit within screen width */
+  }
+
+  .landing-content h1 {
+    font-size: 32px; /* Reduce font size for smaller screens */
+  }
+
+  .landing-content p {
+    font-size: 18px;
+  }
+
+  .landing-content button {
+    padding: 10px 20px;
+    font-size: 16px; /* Adjust button size */
+  }
+}

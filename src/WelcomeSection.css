@@ -79,3 +79,63 @@
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
   animation: right 6s ease forwards;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .welcome-section {
+    flex-direction: column; /* Stack image and content vertically */
+    text-align: center; /* Center-align content */
+  }
+
+  .welcome-content {
+    margin: 20px auto; /* Center content */
+    text-align: center; /* Center-align text */
+  }
+
+  .welcome-image img {
+    margin: 0 auto; /* Center image */
+    max-width: 90%; /* Ensure image fits on smaller screens */
+  }
+
+  .welcome-content h2 {
+    font-size: 30px; /* Adjust font size */
+  }
+
+  .welcome-content p {
+    font-size: 16px; /* Adjust font size */
+  }
+}
+
+/* Mobile responsiveness (max-width: 768px) */
+@media (max-width: 768px) {
+  .welcome-section {
+    flex-direction: column; /* Stack image and content vertically */
+    text-align: center;
+  }
+
+  .welcome-content {
+    margin: 20px auto; /* Center content */
+    text-align: center; /* Center-align text */
+  }
+
+  .welcome-content h2 {
+    font-size: 28px; /* Reduce font size for mobile */
+  }
+
+  .welcome-content p {
+    font-size: 16px;
+  }
+
+  .features-list {
+    font-size: 14px;
+  }
+
+  .welcome-image img {
+    margin: -30px auto;
+    max-width: 100%; /* Ensure image fits within screen width */
+  }
+
+  .read-more-btn {
+    font-size: 16px; /* Adjust button size */
+    padding: 10px 20px;
+  }
+}

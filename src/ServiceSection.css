@@ -37,3 +37,49 @@
 .service-card p {
   font-size: 16px;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .services-cards {
+    gap: 15px; /* Adjust gap between cards for tablets */
+  }
+
+  .service-card {
+    width: 45%; /* Make cards take more space on tablets */
+  }
+
+  .services-section h2 {
+    font-size: 45px; /* Adjust heading size for tablets */
+  }
+
+  .service-card h3 {
+    font-size: 22px; /* Slightly reduce card heading size */
+  }
+
+  .service-card p {
+    font-size: 15px; /* Adjust paragraph size for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .services-cards {
+    flex-direction: column; /* Stack cards vertically on mobile */
+    align-items: center;
+  }
+
+  .service-card {
+    width: 90%; /* Make cards take up most of the screen width */
+  }
+
+  .services-section h2 {
+    font-size: 35px; /* Reduce heading size for mobile */
+  }
+
+  .service-card h3 {
+    font-size: 20px; /* Adjust card heading size for mobile */
+  }
+
+  .service-card p {
+    font-size: 14px; /* Adjust paragraph size for mobile */
+  }
+}

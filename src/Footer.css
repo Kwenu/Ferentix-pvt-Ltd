@@ -95,10 +95,116 @@
 
 .lingo {
   height: auto;
-  /* margin-left: 10px;
-  margin-top: 20px; */
 }
 
-/* .developer {
-  margin-top: -20px;
-} */
+/* Responsive Design for max-width: 1024px */
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .quick-links {
+    margin-top: 20px;
+    margin-right: 300px;
+  }
+  
+  .quick-links h4 {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .contact-us {
+    margin-right: 300px;
+    white-space: nowrap;
+  }
+
+  .site-name {
+    margin-right: -75px;
+  }
+
+  .site-name img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .site-name h4 {
+    font-size: 22px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .quick-links h4,
+  .contact-us h4 {
+    font-size: 18px;
+  }
+
+  .quick-links ul li a,
+  .contact-us p {
+    font-size: 14px;
+  }
+
+  .lingo {
+    max-width: 80px;
+  }
+}
+
+/* Responsive Design for max-width: 768px */
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 0;
+  }
+
+  .footer-section {
+    margin-bottom: 15px;
+    margin-right: -60px;
+  }
+
+  .quick-links {
+    margin-top: 20px;
+    margin-right: 310px;
+  }
+  
+  .quick-links h4 {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .contact-us {
+    margin-right: 310px;
+    white-space: nowrap;
+  }
+
+  .site-name img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .site-name h4,
+  .quick-links h4,
+  .contact-us h4 {
+    font-size: 20px;
+  }
+
+  .social-icons a {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .quick-links ul li a,
+  .contact-us p {
+    font-size: 12px;
+  }
+
+  .lingo {
+    max-width: 70px;
+  }
+}
