@@ -88,9 +88,10 @@
   }
 
   .navbar-logo img {
+    margin-top: 2px;
     height: 100px;
     width: 90px;
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   .hamburger {

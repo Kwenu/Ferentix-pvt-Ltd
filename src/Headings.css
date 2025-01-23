@@ -31,3 +31,81 @@
 .card p {
   font-size: 16px;
 }
+
+
+/* Media query for screens with max-width 768px */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column; /* Stack the cards vertically */
+    align-items: center; /* Center the cards horizontally */
+  }
+
+  .card {
+    width: 90%; /* Cards take more width */
+    margin: 10px 0; /* Space between cards */
+  }
+
+  .card img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+}
+
+
+/* Media query for screens with min-width 768px and max-width 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cards {
+    flex-direction: column; /* Stack the cards vertically */
+    align-items: center; /* Center the cards horizontally */
+  }
+
+  .card {
+    width: 80%; /* Cards take more width */
+    margin: 10px 0; /* Space between cards */
+  }
+
+  .card img {
+    height: 90px;
+    width: 90px;
+  }
+
+  .card h3 {
+    font-size: 22px;
+  }
+
+  .card p {
+    font-size: 15px;
+  }
+}
+
+/* Media query for screens with min-width 1024px */
+@media (min-width: 1024px) {
+  .cards {
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 30%; /* Keep original width on larger screens */
+  }
+
+  .card img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .card h3 {
+    font-size: 24px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+}

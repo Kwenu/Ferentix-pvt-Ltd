@@ -46,7 +46,7 @@ const Solar = () => {
                 energy that reduces your carbon footprint and helps combat
                 climate change.
               </li>
-              <li>
+              <li> 
                 <b>Energy Independence:</b> With solar panels, you generate your
                 own power, protecting yourself from energy price fluctuations
                 and power outages.
@@ -280,7 +280,7 @@ const Solar = () => {
             </div>
           </div>
           <div style={{backgroundColor: "#b5a642"}} className="article">
-            <h3>Brass Package</h3>
+            <h3>Brass Package</h3><br /><br />
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
             <p>
@@ -446,7 +446,7 @@ const Solar = () => {
             </div>
           </div>
           <div style={{backgroundColor: "#b5a642"}} className="article">
-            <h3>Brass Package</h3>
+            <h3>Brass Package</h3><br /><br />
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
             <p>
@@ -612,7 +612,7 @@ const Solar = () => {
             </div>
           </div>
           <div style={{backgroundColor: "#b5a642"}} className="article">
-            <h3>Brass Package</h3>
+            <h3>Brass Package</h3><br /><br />
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
             <p>
@@ -778,7 +778,7 @@ const Solar = () => {
             </div>
           </div>
           <div style={{backgroundColor: "#b5a642"}} className="article">
-            <h3>Brass Package</h3>
+            <h3>Brass Package</h3><br /><br />
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
             <p>

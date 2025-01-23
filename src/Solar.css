@@ -180,3 +180,282 @@
   font-size: 11.6px; /* Slightly larger font size for the description */
   line-height: 1.3; /* Better readability with increased line height */
 }
+
+/* Mobile: max-width 600px */
+@media (max-width: 600px) {
+  .solar-header {
+    margin-top: -70px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .post-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .subheading {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    padding: 0 10px;
+    margin-left: 5px;
+    text-align: center;
+  }
+
+  .solar-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .solar-gallery .gallery-image img{
+    margin-top: -90px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .solar-gallery .gallery-image-1 img{
+    margin-left: -130px;
+    margin-top: 0px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .solar-gallery .gallery-text,
+  .solar-gallery .gallery-text-1 {
+    margin-left: -80px;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+
+  .gallery-text,
+  .gallery-text-1 {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+  .gallery-text .content-text,
+  .gallery-text-1 .content-text {
+    margin-left: -30px;
+  }
+
+  .solar-content {
+    padding: 0 5px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  .related-articles h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .articles {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .article {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .article img {
+    width: 100%;
+    height: auto;
+  }
+
+  .article h3 {
+    font-size: 1rem;
+  }
+
+  .article-details {
+    font-size: 0.8rem;
+  }
+}
+
+/* Tablet: max-width 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  .solar-header {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .post-title {
+    margin-top: 40px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .subheading {
+    margin-top: 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 15px;
+    text-align: justify;
+  }
+
+  .solar-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .solar-gallery .gallery-text {
+    margin-left: -80px;
+  }
+
+  .solar-gallery .gallery-image img{
+    margin-left: 100px;
+    margin-top: -90px;
+    width: 450px;
+    height: 300px;
+  }
+
+  .solar-gallery .gallery-image-1 img{
+    margin-left: -30px;
+    width: 500px;
+    height: 350px;
+  }
+
+  .gallery-text,
+  .gallery-text-1 {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 15px;
+    text-align: justify;
+  }
+
+  .solar-content {
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .related-articles h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .articles {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 15px;
+  }
+
+  .article {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .article img {
+    width: 100%;
+    height: auto;
+  }
+
+  .article h3 {
+    font-size: 1.1rem;
+  }
+
+  .article-details {
+    font-size: 0.9rem;
+  }
+}
+
+/* Desktop: max-width 1200px */
+@media (min-width: 900px) and (max-width: 1200px) {
+  .solar-header {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .post-title {
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+
+  .subheading {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  .solar-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .solar-gallery .gallery-text {
+    margin-left: -80px;
+  }
+
+  .solar-gallery .gallery-image img{
+    margin-left: 100px;
+    margin-top: -90px;
+    width: 550px;
+    height: 400px;
+  }
+
+  .solar-gallery .gallery-image-1 img{
+    margin-left: -0px;
+    width: 550px;
+    height: 400px;
+  }
+
+  .gallery-text,
+  .gallery-text-1 {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  .solar-content {
+    padding: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+  }
+
+  .related-articles h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .articles {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .article img {
+    width: 100%;
+    height: auto;
+  }
+
+  .article h3 {
+    font-size: 1.2rem;
+  }
+
+  .article-details {
+    font-size: 1rem;
+  }
+}

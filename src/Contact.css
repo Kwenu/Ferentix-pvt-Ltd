@@ -269,21 +269,131 @@ hr.new-2 {
   margin-bottom: 0px;
 }
 
-/* Responsive for smaller screens */
-@media (max-width: 768px) {
-  .contact-us-container {
-    flex-direction: column;
-    height: auto;
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .contact-page-container .contact-left {
+    display: none;
   }
 
-  .contact-left,
-  .contact-right {
+  .contact-left {
     width: 100%;
   }
 
-  .contact-overlay {
-    left: 5%;
-    top: 40%;
-    transform: translateY(-40%);
+  .contact-right {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  .form-container {
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  .image-container {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .get-in-touch-container .image-container {
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-page-container .contact-left {
+    display: none;
+  }
+
+  .contact-right .contact-info {
+    margin-top: -20px;
+  }
+
+  .contact-info-item h4 {
+    font-size: 1.4em;
+  }
+
+  .contact-call h3 {
+    font-size: 2rem;
+  }
+
+  .contact-call p {
+    font-size: 1.2rem;
+  }
+
+  .contact-social h4 {
+    font-size: 1.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 35px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+
+  .get-in-touch-container .image-container {
+    margin-top: 200px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-us-container {
+    margin-left: -20px;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .contact-left {
+    display: none; /* Remove images and left section */
+  }
+
+  .contact-right {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .contact-right .contact-info {
+    margin-top: -10px;
+  }
+
+  .contact-details {
+    padding: 20px;
+  }
+
+  .form-container {
+    padding: 0;
+  }
+
+  .form-container h2 {
+    font-size: 28px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+  }
+
+  .image-container {
+    display: none; /* Remove image in smaller screens */
+  }
+
+  .map-container {
+    height: 300px; /* Adjust map height */
+  }
+
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .send-message-btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .map-container {
+    margin-bottom: 160px;
   }
 }

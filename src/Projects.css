@@ -2,3 +2,13 @@
     padding: 0px 70px;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .projects-section .post-title {
+        margin-top: 60px;
+    }
+
+    .projects-section .subheading {
+        padding: 0px 20px;
+    }
+}

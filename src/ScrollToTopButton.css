@@ -25,3 +25,29 @@
 .scroll-button:focus {
   outline: none;
 }
+
+/* Media query for screens with max-width 768px */
+@media (max-width: 768px) {
+  .scroll-to-top {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .scroll-button {
+    padding: 8px 12px;
+    font-size: 20px;
+  }
+}
+
+/* Media query for screens with min-width 768px and max-width 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .scroll-to-top {
+    bottom: 25px;
+    right: 25px;
+  }
+
+  .scroll-button {
+    padding: 9px 13px;
+    font-size: 22px;
+  }
+}

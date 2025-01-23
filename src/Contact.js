@@ -12,7 +12,6 @@ const ContactUs = () => {
     message: "",
   });
 
-
   // Create a reference for the "Get in Touch" section
   const getInTouchRef = useRef(null);
 

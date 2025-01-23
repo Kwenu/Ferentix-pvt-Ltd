@@ -2,10 +2,6 @@ import React from "react";
 import "./Construction.css";
 import Con1 from "./con1.jpg";
 import Con2 from "./con2.jpg";
-// import Con3 from "./con3.jpg";
-// import Img1 from "./article4.jpg";
-// import Img2 from "./article5.jpg";
-// import Img3 from "./article6.jpg";
 import Img4 from "../src/HP.png";
 import Img5 from "../src/AR.png";
 import Img6 from "../src/ID.png";
@@ -40,9 +36,6 @@ const Construction = () => {
         <div className="gallery-image-con2">
           <img src={Con2} alt="Con Image 2" />
         </div>
-        {/* <div className="gallery-image">
-          <img src={Con3} alt="Solar Image 3" />
-        </div> */}
       </div>
       <br />
       <br />
@@ -109,58 +102,6 @@ const Construction = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="related-articles">
-        <h2>Related Articles or Posts</h2>
-        <div className="articles">
-          <div className="article">
-            <h3>Construction Costs Decrease for First time after 10 Years</h3>
-            <img
-              src={Img1}
-              alt="Con1"
-              className="article-image"
-            />
-            <p>
-            Construction costs in July saw a slight decrease, 
-            which has been unheard of over the past decade. With 
-            pandemic-related issues being a contributing factor, 
-            some construction materials have also seen a slight decline 
-            in price, playing a part in the overall decrease of 
-            construction costs.
-            </p>
-          </div>
-          <div className="article">
-            <h3>Will the Skyscrapers of the Future be made out of Wood</h3>
-            <img
-              src={Img2}
-              alt="Con2"
-              className="article-image"
-            />
-            <p>
-            Wood for skyscrapers in 2020? Who would've thought? 
-            National Geographic not only highlights the gained interest 
-            in wood for constructing high rises, but they also help us 
-            understand that the need for these materials relies on a 
-            controlled growth in trees.
-            </p>
-          </div>
-          <div className="article">
-            <h3>Unemployment in Construction Industry</h3>
-            <img
-              src={Img3}
-              alt="Con3"
-              className="article-image"
-            />
-            <p>
-            As with many industries, construction has been hit by the 
-            affects of COVID-19, impacting it's current employment rates. 
-            In April, unemployment rates tripled from the start of the 
-            year. But, with an ease in restrictions and implementation 
-            of health it may start to reduce the employment rates.
-            </p>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
 .construction-page .subheading {
     padding: 0px 70px;
     text-align: center;
@@ -87,4 +93,56 @@ line-height: 1.6;
 
 .gallery-image-con2 {
   animation: left 2s ease forwards;
+}
+
+/* For Mobile: max-width 600px */
+@media (max-width: 600px) {
+  .construction-page .post-title {
+    margin-top: 60px;
+  }
+
+  .construction-page .subheading {
+    padding: 0px 20px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+
+  .construction-page .sub-heading-2 {
+    padding: 0px 30px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+
+  .con-gallery {
+    margin-left: -360px;
+    grid-template-columns: 1fr; /* Single-column layout */
+    gap: 20px; /* Space between the images */
+    padding: 0 10px; /* Adjust padding for mobile */
+  }
+
+  .con-gallery .gallery-image-con1 img {
+    margin-right: -600px;
+    width: 400px; 
+    height: 300px; 
+    margin: 0 auto; 
+  }
+
+  .con-gallery .gallery-image-con2 img {
+    width: 400px; 
+    height: auto; 
+    margin: 10px auto; 
+    margin-right: 450px;
+  }
+
+  /* Construction Cards in .cons-cards: Stack one below the other */
+  .cons-cards {
+    flex-direction: column; /* Stack cards vertically */
+    gap: 15px; /* Space between cards */
+    padding: 0 10px; /* Reduce padding for mobile */
+  }
+
+  .cons-card {
+    width: 100%; /* Full width for cards */
+    margin: 0 auto; /* Center-align cards */
+  }
 }
