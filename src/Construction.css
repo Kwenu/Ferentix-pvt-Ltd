@@ -122,7 +122,7 @@ line-height: 1.6;
   }
 
   .con-gallery {
-    margin-left: -395px;
+    margin-left: -403px;
     grid-template-columns: 1fr; /* Single-column layout */
     gap: 20px; /* Space between the images */
     padding: 0 10px; /* Adjust padding for mobile */
