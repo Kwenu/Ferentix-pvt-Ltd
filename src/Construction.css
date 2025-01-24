@@ -130,16 +130,16 @@ line-height: 1.6;
 
   .con-gallery .gallery-image-con1 img {
     margin-right: -600px;
-    width: 400px; 
-    height: 300px; 
+    width: 380px; 
+    height: 280px; 
     margin: 0 auto; 
   }
 
   .con-gallery .gallery-image-con2 img {
-    width: 400px; 
-    height: auto; 
+    width: 390px; 
+    height: 280px; 
     margin: 10px auto; 
-    margin-right: 450px;
+    margin-right: 457px;
   }
 
   /* Construction Cards in .cons-cards: Stack one below the other */
