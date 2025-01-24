@@ -73,7 +73,7 @@ const ContactUs = () => {
               <FaMapMarkerAlt className="contact-icon" />
               <div>
                 <h4>Our Office</h4>
-                <p>52/10, Steel Road, Dangedara, Galle</p>
+                <p>52/13, Royal City, Steel Road, Dangedara, Galle</p>
               </div>
             </div>
             <div className="contact-info-item">

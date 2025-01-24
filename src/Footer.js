@@ -53,7 +53,7 @@ const Footer = () => {
             <i className="fas fa-phone"></i>+94 77 749 1007
           </p>
           <p>
-            <i className="fas fa-map-marker-alt"></i>52/13, Royal City, Steel Rd, Galle 80000
+            <i className="fas fa-map-marker-alt"></i>52/13, Royal City, Steel Rd, Dangedara, Galle. 80000
           </p>
         </div>
       </div>
