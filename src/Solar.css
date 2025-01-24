@@ -183,6 +183,14 @@
 
 /* Mobile: max-width 600px */
 @media (max-width: 600px) {
+  .solar-page {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    padding: 0; /* Remove unwanted padding */
+    box-sizing: border-box; /* Ensure padding doesn't affect the overall width */
+  }
+
   .solar-header {
     margin-top: -70px;
     text-align: center;
@@ -211,13 +219,14 @@
   }
 
   .solar-gallery .gallery-image img{
+    margin-left: -83px;
     margin-top: -90px;
     width: 400px;
     height: 300px;
   }
 
   .solar-gallery .gallery-image-1 img{
-    margin-left: -130px;
+    margin-left: -162px;
     margin-top: 0px;
     width: 400px;
     height: 300px;
@@ -240,7 +249,7 @@
 
   .gallery-text .content-text,
   .gallery-text-1 .content-text {
-    margin-left: -30px;
+    display: none;
   }
 
   .solar-content {

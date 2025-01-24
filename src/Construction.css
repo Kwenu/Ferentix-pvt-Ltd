@@ -97,6 +97,14 @@ line-height: 1.6;
 
 /* For Mobile: max-width 600px */
 @media (max-width: 600px) {
+  .construction-page {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    padding: 0; /* Remove unwanted padding */
+    box-sizing: border-box; /* Ensure padding doesn't affect the overall width */
+  }
+
   .construction-page .post-title {
     margin-top: 60px;
   }
@@ -114,7 +122,7 @@ line-height: 1.6;
   }
 
   .con-gallery {
-    margin-left: -360px;
+    margin-left: -395px;
     grid-template-columns: 1fr; /* Single-column layout */
     gap: 20px; /* Space between the images */
     padding: 0 10px; /* Adjust padding for mobile */

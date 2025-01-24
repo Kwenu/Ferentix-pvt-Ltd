@@ -64,6 +64,11 @@
 
 /* Responsive for tablets and mobile */
 @media (max-width: 768px) {
+  .navbar {
+    background: linear-gradient(to right, #ffffff 30%, #0C051C 60%);
+
+  }
+
   .navbar-links {
     margin-top: 0px;
     display: none;
@@ -91,7 +96,7 @@
     margin-top: 2px;
     height: 100px;
     width: 90px;
-    margin-left: 5px;
+    margin-left: 10px;
   }
 
   .hamburger {
