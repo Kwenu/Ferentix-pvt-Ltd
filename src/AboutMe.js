@@ -10,7 +10,7 @@ function AboutMe() {
         <h3><span className="highlight">Damindu&nbsp;</span>Nimshara Kumarasiri</h3>
         <p>As the CEO of Ferentix (Pvt) Ltd, Damindu Nimshara Kumarasiri 
           combines innovative thinking with a strategic mindset to drive 
-          the company's success. With holding a BSc (Hons) Civil 
+          the company's success. With holding a B.Eng (Hons) Civil 
           Engineering Degree and over 6 years of experience in the 
           industry, Damindu has led company through significant growth 
           and transformation. Under his leadership, the company has 

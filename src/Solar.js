@@ -591,7 +591,7 @@ const Solar = () => {
             <p>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
-                  <li>Expect Average Monthly Solar Energy: 1900 - 2100 kWh.</li>
+                  <li>Expect Average Monthly Solar Energy: 2000 - 2300 kWh.</li>
                   <li>Total Saving per Month: LKR 51 300 (1900 x 27)</li>
                   <li>Annual Saving: LKR 615 600 (51 300 x 12)</li>
                   <li>Recommend electricity bill covered by our system (Per Month): LKR 121 702.56</li>

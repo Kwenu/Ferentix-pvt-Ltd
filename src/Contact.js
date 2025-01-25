@@ -92,6 +92,8 @@ const ContactUs = () => {
                 <h4>Get in Touch</h4>
                 <p>
                   ferntixsolar@gmail.com
+                  <br />ferentixcontruction@gmail.com
+                  <br />info.ferentix@gmail.com
                   <br />
                   +94 77 749 1007
                 </p>

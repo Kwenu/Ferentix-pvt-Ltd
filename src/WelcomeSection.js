@@ -9,7 +9,7 @@ const WelcomeSection = () => {
         <img src={Solar} alt="Solar" />
       </div>
       <div className="welcome-content">
-        <h3>Where Can We Help You</h3>
+        <h3>How Can We Help You</h3>
         <h2>Welcome To Ferentix (Pvt) Ltd</h2>
         <p>
           Our team of experts specializes in designing and constructing commercial and residential spaces that are functional, sustainable, and aesthetically pleasing.

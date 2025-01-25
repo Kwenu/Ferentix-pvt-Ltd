@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="footer-section contact-us">
           <h4>Contact Us</h4>
           <p>
-            <i className="fas fa-envelope"></i>ferentixsolar@gmail.com
+            <i className="fas fa-envelope"></i>info.ferentix@gmail.com
           </p>
           <p>
             <i className="fas fa-phone"></i>+94 77 749 1007

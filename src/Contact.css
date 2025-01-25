@@ -75,6 +75,7 @@
 
 /* Right Section: Contact Info */
 .contact-right {
+  margin-top: -20px;
   width: 40%;
   background-color: #0683FC;
   color: #000000;
@@ -95,6 +96,8 @@
 }
 
 .contact-info-item {
+  margin-top: -15px;
+  margin-right: 0px;
   display: flex;
   align-items: flex-start;
 }
