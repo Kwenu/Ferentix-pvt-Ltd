@@ -69,7 +69,7 @@ const ContactUs = () => {
         <div className="contact-right">
           <h2>Contact Info</h2>
           <div className="contact-info">
-            <div className="contact-info-item">
+            <div className="contact-info-item office">
               <FaMapMarkerAlt className="contact-icon" />
               <div>
                 <h4>Our Office</h4>

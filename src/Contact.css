@@ -347,7 +347,7 @@ hr.new-2 {
   .contact-us-container {
     margin-left: -20px;
     flex-direction: column;
-    padding: 15px;
+    padding: 20px;
   }
 
   .contact-left {
@@ -366,6 +366,11 @@ hr.new-2 {
 
   .contact-right .contact-info {
     margin-top: -10px;
+  }
+
+  .contact-right .contact-info .office .contact-icon {
+    margin-left: 24px;
+    font-size: 45px;
   }
 
   .contact-details {
