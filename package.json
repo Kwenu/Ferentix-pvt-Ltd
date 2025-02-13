@@ -1,5 +1,6 @@
 {
-  "name": "construction-website",
+  "homepage": "https://ferentix.com",
+  "name": "Ferentix (Pvt) Ltd",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
