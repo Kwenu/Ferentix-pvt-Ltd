@@ -17,7 +17,7 @@ const WelcomeSection = () => {
         <ul className="features-list">
           <li>Specializes in designing and constructing</li>
           <li>Strong understanding of our clients' needs and goals</li>
-          <li>Architectural design, engineering, and construction management</li>
+          <li>Architectural design and construction management</li>
           <li>Environmental impact of our projects</li>
           <li>Sustainable engineering solutions</li>
         </ul>
