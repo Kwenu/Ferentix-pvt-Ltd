@@ -33,6 +33,18 @@ import Img31 from "../src/projects/32.jpg";
 import Img32 from "../src/projects/33.jpg";
 import Img33 from "../src/projects/34.jpg";
 import Img34 from "../src/projects/35.jpg";
+import Con1 from "../src/projects/c-2.jpg";
+import Con2 from "../src/projects/c-3.jpg";
+import Con3 from "../src/projects/c-4.jpg";
+import Con4 from "../src/projects/c-6.jpg";
+import Con5 from "../src/projects/c-7.jpg";
+import Con6 from "../src/projects/c-9.jpg";
+import Con7 from "../src/projects/c-10.jpg";
+import Con8 from "../src/projects/c-11.jpg";
+import Con9 from "../src/projects/c-12.jpg";
+import Con10 from "../src/projects/c-13.jpg";
+import Con11 from "../src/projects/c-14.jpg";
+import Con12 from "../src/projects/c-15.jpg";
 
 const Projects = () => {
   return (
@@ -90,6 +102,24 @@ const Projects = () => {
           <img src={Img32} alt="" />
           <img src={Img33} alt="" />
           <img src={Img34} alt="" />
+        </div>
+        
+        <div className="body-title">
+          <h2>Construction Projects</h2>
+        </div>
+        <div className="body-gallery">
+          <img src={Con1} alt="" />
+          <img src={Con2} alt="" />
+          <img src={Con3} alt="" />
+          <img src={Con5} alt="" />
+          <img src={Con6} alt="" />
+          <img src={Con4} alt="" />
+          <img src={Con7} alt="" />
+          <img src={Con8} alt="" />
+          <img src={Con9} alt="" />
+          <img src={Con10} alt="" />
+          <img src={Con11} alt="" />
+          <img src={Con12} alt="" />
         </div>
       </div>
     </div>
