@@ -33,6 +33,34 @@ import Img31 from "../src/projects/32.jpg";
 import Img32 from "../src/projects/33.jpg";
 import Img33 from "../src/projects/34.jpg";
 import Img34 from "../src/projects/35.jpg";
+import Img35 from "../src/projects/36.jpg";
+import Img36 from "../src/projects/37.jpg";
+import Img37 from "../src/projects/38.jpg";
+import Img38 from "../src/projects/39.jpg";
+import Img39 from "../src/projects/40.jpg";
+import Img40 from "../src/projects/41.jpg";
+import Img41 from "../src/projects/42.jpg";
+import Img42 from "../src/projects/43.jpg";
+import Img43 from "../src/projects/44.jpg";
+import Img44 from "../src/projects/45.jpg";
+import Img45 from "../src/projects/46.jpg";
+import Img46 from "../src/projects/47.jpg";
+import Img47 from "../src/projects/48.jpg";
+import Img48 from "../src/projects/49.jpg";
+import Img49 from "../src/projects/50.jpg";
+import Img50 from "../src/projects/51.jpg";
+import Img51 from "../src/projects/52.jpg";
+import Img52 from "../src/projects/53.jpg";
+import Img53 from "../src/projects/54.jpg";
+import Img54 from "../src/projects/55.jpg";
+import Img55 from "../src/projects/56.jpg";
+import Img56 from "../src/projects/57.jpg";
+import Img57 from "../src/projects/58.jpg";
+import Img58 from "../src/projects/59.jpg";
+import Img59 from "../src/projects/60.jpg";
+import Img60 from "../src/projects/61.jpg";
+import Img61 from "../src/projects/62.jpg";
+
 import Con1 from "../src/projects/c-2.jpg";
 import Con2 from "../src/projects/c-3.jpg";
 import Con3 from "../src/projects/c-4.jpg";
@@ -102,6 +130,33 @@ const Projects = () => {
           <img src={Img32} alt="" />
           <img src={Img33} alt="" />
           <img src={Img34} alt="" />
+          <img src={Img35} alt="" />
+          <img src={Img36} alt="" />
+          <img src={Img37} alt="" />
+          <img src={Img38} alt="" />
+          <img src={Img39} alt="" />
+          <img src={Img40} alt="" />
+          <img src={Img41} alt="" />
+          <img src={Img42} alt="" />
+          <img src={Img43} alt="" />  
+          <img src={Img44} alt="" />
+          <img src={Img45} alt="" />
+          <img src={Img46} alt="" />
+          <img src={Img47} alt="" />
+          <img src={Img48} alt="" />
+          <img src={Img49} alt="" />
+          <img src={Img50} alt="" />
+          <img src={Img51} alt="" />
+          <img src={Img52} alt="" />
+          <img src={Img53} alt="" />
+          <img src={Img54} alt="" />
+          <img src={Img55} alt="" />
+          <img src={Img56} alt="" />
+          <img src={Img57} alt="" />
+          <img src={Img58} alt="" />
+          <img src={Img59} alt="" />
+          <img src={Img60} alt="" />
+          <img src={Img61} alt="" />
         </div>
         
         <div className="body-title">
