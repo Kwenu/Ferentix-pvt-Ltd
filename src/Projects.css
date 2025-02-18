@@ -14,7 +14,7 @@ body {
 }
 
 .projects-body .body-gallery img {
-    width: 450px;
+    width: 250px;
     height: 300px;
     margin: 10px;
     border: 10px solid #ffffff;
@@ -51,7 +51,7 @@ body {
 
     .projects-body .body-gallery img {
         width: 350px;
-        height: 250px;
+        height: 420px;
     }
 
     .projects-body .body-gallery img:hover {
