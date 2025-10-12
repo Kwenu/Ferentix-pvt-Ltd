@@ -1,8 +1,8 @@
 .footer {
-  background-color: #0C051C;
+  background-color: #0c051c;
   color: white;
   padding: 20px 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .footer-container {
@@ -89,7 +89,8 @@
   margin-right: 10px;
 }
 
-.copyright, .developer {
+.copyright,
+.developer {
   color: white;
   font-size: 1rem;
 }
@@ -114,7 +115,7 @@
     margin-top: 20px;
     margin-right: 300px;
   }
-  
+
   .quick-links h4 {
     font-size: 18px;
     white-space: nowrap;
@@ -173,7 +174,7 @@
     margin-top: 20px;
     margin-right: 310px;
   }
-  
+
   .quick-links h4 {
     font-size: 18px;
     white-space: nowrap;
