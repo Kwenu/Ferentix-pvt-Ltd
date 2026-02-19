@@ -14,7 +14,7 @@ function AboutMe() {
           Structural Engineering Degree and over 6 years of experience in the 
           industry, Damindu has led company through significant growth 
           and transformation. Under his leadership, the company has 
-          achieved more than 250 projects up to now. He is committed 
+          achieved more than 2250 projects up to now. He is committed 
           to continuous improvement and is passionate about quality 
           and durability, ensuring that Ferentix (Pvt) Ltd remains at 
           the forefront of the industry. Their vision is to empower 
