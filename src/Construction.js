@@ -31,10 +31,10 @@ const Construction = () => {
 
       <div className="con-gallery">
         <div className="gallery-image-con1">
-          <img src={Con1} alt="Con Image 1" />
+          <img src={Con1} alt="Residential building under construction" />
         </div>
         <div className="gallery-image-con2">
-          <img src={Con2} alt="Con Image 2" />
+          <img src={Con2} alt="Residential building over construction" />
         </div>
       </div>
       <br />

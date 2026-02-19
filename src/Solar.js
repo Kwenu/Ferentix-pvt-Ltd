@@ -30,11 +30,11 @@ const Solar = () => {
 
       <div className="solar-gallery">
         <div className="gallery-image">
-          <img src={Image8} alt="Solar Image 1" />
+          <img src={Image8} alt="Solar panel installation on rooftop" />
         </div>
         <div className="gallery-text">
           <p className="content-heading">Why Go Solar?</p>
-          <p className="content-text">
+          <div className="content-text">
             <ul>
               <li>
                 <b>Cost Savings:</b> With solar power, you can significantly
@@ -57,7 +57,7 @@ const Solar = () => {
                 long-term investment for homeowners and businesses alike.
               </li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
 
@@ -78,7 +78,7 @@ const Solar = () => {
       <div className="solar-gallery">
         <div className="gallery-text-1">
           <p className="content-heading">Our Solar Services</p>
-          <p className="content-text">
+          <div className="content-text">
             <ul>
               <li>
                 <b>Solar Panel Installation:</b> Whether it’s rooftop solar for
@@ -101,10 +101,10 @@ const Solar = () => {
                 everyone.
               </li>
             </ul>
-          </p>
+          </div>
         </div>
         <div className="gallery-image-1">
-          <img src={Image4} alt="Solar Image 4" />
+          <img src={Image4} alt="Solar panel installation on rooftop" />
         </div>
       </div>
       <br />
@@ -148,7 +148,7 @@ const Solar = () => {
             <h3>Diamond Package</h3><br />
             <img src={Logo1} alt="LogoCom1" />
             <div className="article-details">
-              <p>
+              <div>
                 <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 700 - 800 kWh.</li>
@@ -168,14 +168,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty (Can Extend up to 25 Years)</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#E5E4E2"}} className="article">
             <h3>Platinum Package</h3><br />
             <img src={Logo2} alt="LogoCom2" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 800 - 900 kWh.</li>
@@ -195,14 +195,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#FFD700"}} className="article">
             <h3>Gold Package</h3><br />
             <img src={Logo3} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
                 <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 450 - 600 kWh.</li>
@@ -222,14 +222,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#C0C0C0"}} className="article">
             <h3>Silver Package</h3><br />
             <img src={Logo4} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 400 - 500kWh.</li>
@@ -249,14 +249,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#CD7F32"}} className="article">
             <h3>Bronze Package</h3><br />
             <img src={Logo5} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 400 - 500kWh.</li>
@@ -276,14 +276,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#b5a642"}} className="article">
             <h3>Brass Package</h3><br /><br />
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 400 - 500kWh.</li>
@@ -303,7 +303,7 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
         </div><br /><br />
@@ -314,7 +314,7 @@ const Solar = () => {
             <h3>Diamond Package</h3><br />
             <img src={Logo1} alt="LogoCom1" />
             <div className="article-details">
-              <p>
+              <div>
                 <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 1400 - 1750 kWh.</li>
@@ -334,14 +334,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty (Can Extend up to 25 Years)</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#E5E4E2"}} className="article">
             <h3>Platinum Package</h3><br />
             <img src={Logo2} alt="LogoCom2" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 1400 - 1750 kWh.</li>
@@ -361,14 +361,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#FFD700"}} className="article">
             <h3>Gold Package</h3><br />
             <img src={Logo3} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
                 <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 1100 - 1200 kWh.</li>
@@ -388,14 +388,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#C0C0C0"}} className="article">
             <h3>Silver Package</h3><br />
             <img src={Logo4} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 1000 - 1100 kWh.</li>
@@ -415,14 +415,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#CD7F32"}} className="article">
             <h3>Bronze Package</h3><br />
             <img src={Logo5} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 950 - 1050 kWh.</li>
@@ -442,14 +442,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#b5a642"}} className="article">
             <h3>Brass Package</h3><br /><br />
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 900 - 975 kWh.</li>
@@ -469,7 +469,7 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
         </div><br /><br />
@@ -480,7 +480,7 @@ const Solar = () => {
             <h3>Diamond Package</h3><br />
             <img src={Logo1} alt="LogoCom1" />
             <div className="article-details">
-              <p>
+              <div>
                 <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 3000 - 3500 kWh.</li>
@@ -500,14 +500,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty (Can Extend up to 25 Years)</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#E5E4E2"}} className="article">
             <h3>Platinum Package</h3><br />
             <img src={Logo2} alt="LogoCom2" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
               <ul>
                   <li>Expect Average Monthly Solar Energy: 3000 - 3500 kWh.</li>
@@ -527,14 +527,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#FFD700"}} className="article">
             <h3>Gold Package</h3><br />
             <img src={Logo3} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
                 <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 2200 - 2500 kWh.</li>
@@ -554,14 +554,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#C0C0C0"}} className="article">
             <h3>Silver Package</h3><br />
             <img src={Logo4} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 2000 - 2200 kWh.</li>
@@ -581,14 +581,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#CD7F32"}} className="article">
             <h3>Bronze Package</h3><br />
             <img src={Logo5} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 2000 - 2300 kWh.</li>
@@ -608,14 +608,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#b5a642"}} className="article">
             <h3>Brass Package</h3><br /><br />
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 1800 - 2100 kWh.</li>
@@ -635,7 +635,7 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
         </div><br /><br />
@@ -646,7 +646,7 @@ const Solar = () => {
             <h3>Diamond Package</h3><br />
             <img src={Logo1} alt="LogoCom1" />
             <div className="article-details">
-              <p>
+              <div>
                 <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 6000 - 6500 kWh.</li>
@@ -666,14 +666,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty (Can Extend up to 25 Years)</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#E5E4E2"}} className="article">
             <h3>Platinum Package</h3><br />
             <img src={Logo2} alt="LogoCom2" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 6000 - 6500 kWh.</li>
@@ -693,14 +693,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#FFD700"}} className="article">
             <h3>Gold Package</h3><br />
             <img src={Logo3} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
                 <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 4400 - 4800 kWh.</li>
@@ -720,14 +720,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#C0C0C0"}} className="article">
             <h3>Silver Package</h3><br />
             <img src={Logo4} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
              <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 4000 - 4400 kWh.</li>
@@ -747,14 +747,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#CD7F32"}} className="article">
             <h3>Bronze Package</h3><br />
             <img src={Logo5} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 3800 - 4200 kWh.</li>
@@ -774,14 +774,14 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
           <div style={{backgroundColor: "#b5a642"}} className="article">
             <h3>Brass Package</h3><br /><br />
             <img src={Logo6} alt="LogoCom3" />
             <div className="article-details">
-            <p>
+            <div>
               <b style={{color: 'Black'}}>Expected Earning First Year :</b>
                 <ul>
                   <li>Expect Average Monthly Solar Energy: 3600 - 3900 kWh.</li>
@@ -801,7 +801,7 @@ const Solar = () => {
                 <ul>
                   <li>10 Year Product Warranty</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
         </div>
