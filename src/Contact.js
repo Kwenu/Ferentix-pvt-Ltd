@@ -118,17 +118,17 @@ const ContactUs = () => {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61564302045778">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61564302045778">
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61564302045778">
                 <i className="fab fa-tiktok"></i>
               </a>
             </li>
