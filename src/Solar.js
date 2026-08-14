@@ -133,8 +133,8 @@ const Solar = () => {
             <img src={Img3} alt="Construction" />
             <h3>Hybrid Solar System</h3>
             <p>
-              Building construction services deliver quality, durable structures
-              tailored to your needs, ensuring safety, and lasting value.
+              A hybrid solar system combines solar panels, battery storage, and the utility grid to provide reliable, 
+              efficient, and uninterrupted electricity day and night.
             </p>
           </div>
         </div>

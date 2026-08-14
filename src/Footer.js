@@ -59,7 +59,7 @@ const Footer = () => {
       </div>
 
       <div className="alrights"><br />
-        <p className="copyright">© Copyright 2025, Ferentix (Pvt) Ltd. All Right Reserved.</p>
+        <p className="copyright">© Copyright 2026, Ferentix (Pvt) Ltd. All Right Reserved.</p>
         <p className="developer">Design and Developed by :-
           <a href="http://wa.me/94754841586"><br />
             <img src={Lingo} alt="lingo" className="lingo"/>
